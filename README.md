@@ -76,6 +76,7 @@ CourseProjectV1.0.0 (webshop)
 ├── pom.xml
 ├── .gitignore
 └── README.md
+```
 
 # Структура БД
 
@@ -123,6 +124,8 @@ webshop
     ├── product_id    (BIGINT, FK → product.id)
     ├── quantity      (INT)
     └── price         (DECIMAL)
+
+```
 # Пояснение к таблицам
 
 - users — хранение данных пользователей и их ролей
@@ -150,5 +153,5 @@ product
  ├── 1 : N ── cart_item
  ├── 1 : N ── order_item
  └── 1 : N ── favorites
-
+```
  
