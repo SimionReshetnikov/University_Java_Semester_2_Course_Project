@@ -41,7 +41,10 @@ Frontend
 
 - MySQL
 
+```markdown
 # Структура проекта
+
+```text
 
 CourseProjectV2.1 (webshop)
 │
