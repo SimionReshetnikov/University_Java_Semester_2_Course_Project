@@ -41,12 +41,10 @@ Frontend
 
 - MySQL
 
-```markdown
 # Структура проекта
+```markdown
 
-```text
-
-CourseProjectV2.1 (webshop)
+CourseProjectV1.0.0 (webshop)
 │
 ├── src
 │   ├── main
@@ -81,6 +79,7 @@ CourseProjectV2.1 (webshop)
 
 # Структура БД
 
+```markdown
 webshop
 │
 ├── users
@@ -135,7 +134,7 @@ webshop
 - order_item — состав заказа (товары, цена и количество на момент покупки)
 
 # Связи сущностей в БД
-
+```markdown
 users
  ├── 1 : 1 ── cart
  ├── 1 : N ── orders
